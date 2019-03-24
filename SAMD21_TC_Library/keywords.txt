@@ -1,0 +1,103 @@
+Keyword file for Arduino Library SAMD21TC_Library
+
+############################################
+# Data Types (KEYWORD1)
+############################################
+
+clockPrescaler_t		KEYWORD1
+counterSize_t			KEYWORD1
+waveGeneration_t		KEYWORD1
+reloadResetMode_t		KEYWORD1
+address_t				KEYWORD1
+tcCommand_t				KEYWORD1
+countDirection_t		KEYWORD1
+tcInterrupt_t			KEYWORD1
+ccChannel_t				KEYWORD1
+timerInstance_t			KEYWORD1
+TC8Bit					KEYWORD1
+TC16Bit					KEYWORD1
+TC32Bit					KEYWORD1
+TCBaseClass				KEYWORD1
+
+############################################
+# Methods and Functions (KEYWORD2)
+############################################
+
+get8BitTC					KEYWORD2
+get16BitTC					KEYWORD2
+get32BitTC					KEYWORD2
+deleteTC					KEYWORD2
+tcInterruptHandler			KEYWORD2
+getSize						KEYWORD2
+getCounterInstance			KEYWORD2
+enableTC					KEYWORD2
+disableTC					KEYWORD2
+resetTC						KEYWORD2
+retriggerTC					KEYWORD2
+stopTC						KEYWORD2
+isStopped					KEYWORD2
+setOneShotMode				KEYWORD2
+setCountDirection			KEYWORD2
+configureTimer				KEYWORD2
+configureCaptureOperation	KEYWORD2
+handleInterrupt				KEYWORD2
+enableInterrupt				KEYWORD2
+disableInterrupt			KEYWORD2
+getInterruptEnableState		KEYWORD2
+getInterruptFlags			KEYWORD2
+clearInterruptFlags			KEYWORD2
+setControlRegisterA			KEYWORD2
+getControlRegisterA			KEYWORD2
+getControlRegisterB			KEYWORD2
+setPeriod					KEYWORD2
+getPeriod					KEYWORD2
+setCompareChannel0			KEYWORD2
+getCompareChannel0			KEYWORD2
+setCompareChannel1			KEYWORD2
+getCompareChannel1			KEYWORD2
+setCount					KEYWORD2
+getCount					KEYWORD2
+
+############################################
+# Constants (LITERAL1)
+############################################
+
+DIVIDE_BY_1						LITERAL1
+DIVIDE_BY_2						LITERAL1
+DIVIDE_BY_4						LITERAL1
+DIVIDE_BY_8						LITERAL1
+DIVIDE_BY_16					LITERAL1
+DIVIDE_BY_64					LITERAL1
+DIVIDE_BY_256					LITERAL1
+DIVIDE_BY_1024					LITERAL1
+_8BIT							LITERAL1
+_16BIT							LITERAL1
+_32BIT							LITERAL1
+NORMAL_FREQUENCY				LITERAL1
+MATCH_FREQUENCY					LITERAL1
+NORMAL_PWM						LITERAL1
+MATCH_PWM						LITERAL1
+GENERIC_CLOCK					LITERAL1
+PRESCALER_CLOCK					LITERAL1
+GENERIC_CLOCK_RESET_PRESCALER	LITERAL1
+COUNT_REGISTER					LITERAL1
+CC0_REGISTER					LITERAL1
+CC1_REGISTER_8BIT				LITERAL1
+CC1_REGISTER_16BIT				LITERAL1
+CC1_REGISTER_32BIT				LITERAL1
+NO_COMMAND						LITERAL1
+RETRIGGER_COMMAND				LITERAL1
+STOP_COMMAND					LITERAL1
+COUNT_UP						LITERAL1
+COUNT_DOWN						LITERAL1
+TC_OVERFLOW						LITERAL1
+TC_ERROR						LITERAL1
+TC_SYNCRDY						LITERAL1
+TC_CHANNEL_0_MATCH				LITERAL1
+TC_CHANNEL_1_MATCH				LITERAL1
+CC_CHANNEL_0					LITERAL1
+CC_CHANNEL_1					LITERAL1
+_TC3							LITERAL1
+_TC4							LITERAL1
+_TC5							LITERAL1
+INTFLAG_CLEAR					LITERAL1
