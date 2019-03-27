@@ -1,0 +1,124 @@
+Keyword file for Arduino Library SAMD21TC_Library
+
+############################################
+# Data Types (KEYWORD1)
+############################################
+
+rtcClockPrescaler_t		KEYWORD1
+rtcMode_t				KEYWORD1
+rtcInterrupt_t			KEYWORD1
+rtcEvent_t				KEYWORD1
+rtcMonth_t				KEYWORD1
+rtcClockMode_t			KEYWORD1
+rtcAMPM_t				KEYWORD1
+dateTime_t				KEYWORD1
+rtcAlarmEnable_t		KEYWORD1
+Counter_32Bit			KEYWORD1
+Counter_16Bit			KEYWORD1
+ClockCalendar			KEYWORD1
+
+############################################
+# Methods and Functions (KEYWORD2)
+############################################
+
+get32BitRTC					KEYWORD2
+get16BitRTC					KEYWORD2
+getRTCClock					KEYWORD2
+deleteRTC					KEYWORD2
+enableRTC					KEYWORD2
+disableRTC					KEYWORD2
+requestClockCountSync		KEYWORD2
+setFrequencyCorrection		KEYWORD2
+enableEvents				KEYWORD2
+setControlRegister			KEYWORD2
+getControlRegister			KEYWORD2
+configureRTC				KEYWORD2
+setCount					KEYWORD2
+getCount					KEYWORD2
+setCompareValue				KEYWORD2
+getCompareValue				KEYWORD2
+disableInterrupt			KEYWORD2
+getInterruptEnableState		KEYWORD2
+getInterruptFlags			KEYWORD2
+clearInterruptFlags			KEYWORD2
+enableInterrupt				KEYWORD2
+handleInterrupt				KEYWORD2
+setPeriod					KEYWORD2
+getPeriod					KEYWORD2
+setCompareValue0			KEYWORD2
+getCompareValue0			KEYWORD2
+setCompareValue1			KEYWORD2
+getCompareValue1			KEYWORD2
+setClockCalendar			KEYWORD2
+getTime						KEYWORD2
+getDate						KEYWORD2
+getDateTime					KEYWORD2
+getMode						KEYWORD2
+setAlarm					KEYWORD2
+clearAlarm					KEYWORD2
+getClockRegister			KEYWORD2
+
+############################################
+# Constants (LITERAL1)
+############################################
+
+DIVIDE_BY_1						LITERAL1
+DIVIDE_BY_2						LITERAL1
+DIVIDE_BY_4						LITERAL1
+DIVIDE_BY_8						LITERAL1
+DIVIDE_BY_16					LITERAL1
+DIVIDE_BY_32					LITERAL1
+DIVIDE_BY_64					LITERAL1
+DIVIDE_BY_128					LITERAL1
+DIVIDE_BY_256					LITERAL1
+DIVIDE_BY_512					LITERAL1
+DIVIDE_BY_1024					LITERAL1
+COUNTER_32_BIT					LITERAL1
+COUNTER_16_BIT					LITERAL1
+REAL_TIME_CLOCK					LITERAL1
+RTC_OVERFLOW					LITERAL1
+RTC_SYNCRDY						LITERAL1
+RTC_COMPARE_0					LITERAL1
+RTC_COMPARE_1					LITERAL1
+RTC_ALARM						LITERAL1
+RTC_PERIODIC_INTERVAL_0_EVENT	LITERAL1
+RTC_PERIODIC_INTERVAL_1_EVENT	LITERAL1
+RTC_PERIODIC_INTERVAL_2_EVENT	LITERAL1
+RTC_PERIODIC_INTERVAL_3_EVENT	LITERAL1
+RTC_PERIODIC_INTERVAL_4_EVENT	LITERAL1
+RTC_PERIODIC_INTERVAL_5_EVENT	LITERAL1
+RTC_PERIODIC_INTERVAL_6_EVENT	LITERAL1
+RTC_PERIODIC_INTERVAL_7_EVENT	LITERAL1
+RTC_COMPARE_0_EVENT				LITERAL1
+RTC_COMPARE_1_EVENT				LITERAL1
+RTC_CLOCK_ALARM_EVENT			LITERAL1
+RTC_OVERFLOW_EVENT				LITERAL1
+JANUARY							LITERAL1
+FEBRUARY						LITERAL1
+MARCH							LITERAL1
+APRIL							LITERAL1
+MAY								LITERAL1
+JUNE							LITERAL1
+JULY							LITERAL1
+AUGUST							LITERAL1
+SEPTEMBER						LITERAL1
+OCTOBER							LITERAL1
+NOVEMBER						LITERAL1
+DECEMBER						LITERAL1
+_12HOUR							LITERAL1
+_24HOUR							LITERAL1
+_AM								LITERAL1
+_PM								LITERAL1
+NOT_SPECIFIED					LITERAL1
+OFF								LITERAL1
+SS								LITERAL1
+MMSS							LITERAL1
+HHMMSS							LITERAL1
+DDHHMMSS						LITERAL1
+MMDDHHMMSS						LITERAL1
+YYMMDDHHMMSS					LITERAL1
+INTFLAG_CLEAR					LITERAL1
+BASE_YEAR						LITERAL1
+MODE0_INTR_MASK					LITERAL1
+MODE1_INTR_MASK					LITERAL1
+MODE2_INTR_MASK					LITERAL1
